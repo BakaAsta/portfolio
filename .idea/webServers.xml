@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5e5bf0f7-110f-402a-be8b-b7436e7b17b5" name="webinfoIUT" url="https://webinfo.iutmontp.univ-montp2.fr/~trouchex/portefolio/index.html">
+        <fileTransfer accessType="SFTP" host="ftpinfo.iutmontp.univ-montp2.fr" port="22" sshConfigId="c66f2266-9dc0-4cc4-b702-5be76a37d2ce" sshConfig="trouchex@ftpinfo.iutmontp.univ-montp2.fr:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
