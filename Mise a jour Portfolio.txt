@@ -1,0 +1,22 @@
+Mise a jour Portfolio
+
+
+/** HOME **/
+
+Revoir texte de présentation, changer l'age expliqué le parcours professionnel, revoir le cv ( changer les logo des passsions, revoir les alignement etc ).
+
+Pour les Savoir faire, il faut rajouter les compétences et organiser les en cohérence avec le cv. Ce qui et sur le cv dois ressortir sur le site web pour que se soit raccord.
+
+Il y a les savoir faire mais pas les savoir etre, mettre en place une page avec un trait de séparation pour mettre en avant les savoir faire et parler des savoir etres.
+
+Je me méprends il existe bien une partie savoir être, mais elle est trop légère, enelver les chiffres% qui représente plus des savoir etre professionnel et mettre des valeur qui me représente vraiement.
+
+Changer le right reserved en bas.
+
+/** CONTACT **/
+
+Mettre a jour la partir contactez moi en rajoutant des lien vers mon linkedIn, gitHub, Gilab.
+ 
+/** PROJECTS **/
+
+Changer le lien d'hébergement de la SAE du semestre 3, rajoiuter la sae trello trollé du semestre 4. Ajouter leonn, (project d'alternance et mettre en pdf le rapport détaillé pour ceux qui aiumerai creuser. Rajouter les 3 min is project du semestre 5 ( annuaire, api et VueJS) qui sont déja hébergé.
