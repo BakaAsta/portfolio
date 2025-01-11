@@ -129,7 +129,7 @@ ol {
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
-  padding-bottom: 25px;
+  padding-bottom: 7rem;
 }
 .section-title h2:after {
   position: absolute;
