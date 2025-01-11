@@ -502,6 +502,7 @@ owl-carousel .owl-item .banderole {
 .hero__text h2 {
   color: #ffffff;
   font-size: 60px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;
@@ -514,9 +515,8 @@ owl-carousel .owl-item .banderole {
   transition: all, 0.5s;
 }
 .banderole {
-  position: absolute;
+  /*position: absolute;*/
   white-space: nowrap;
-  overflow: hidden;
   width: 100%;
   height: 50px;/* Ajustez la hauteur selon vos besoins */
 }
@@ -536,14 +536,23 @@ owl-carousel .owl-item .banderole {
   animation: marquee 7s linear infinite;
   animation-delay: 0s;
 }
-
-
-
 .banderole h3 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 4rem;
   font-weight: 700;
-  line-height: 70px;
+  line-height: 100%
+}
+
+.space-y-1 {
+  margin-top: 0.25rem; /* 4px */
+}
+
+.space-y-2 {
+  margin-top: 0.5rem; /* 8px */
+}
+
+.space-y-4 {
+  margin-top: 1rem; /* 16px */
 }
 
 
@@ -1197,6 +1206,11 @@ services__titleBis p {
   margin-bottom: 10rem;
 }
 
+
+
+
+
+
 .services__item {
   margin-bottom: 45px;
 }
@@ -1841,6 +1855,10 @@ services__titleBis p {
   border-color: #e1e1e1;
 }
 
+.pt-3 {
+  padding-top: 3rem;
+}
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1200px) {
   .container {
@@ -1849,6 +1867,11 @@ services__titleBis p {
 }
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  .pt-3 {
+    padding-top: 0;
+  }
+
   .header__nav__menu {
     margin-right: 25px;
   }
