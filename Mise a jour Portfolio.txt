@@ -13,9 +13,11 @@ Je me méprends il existe bien une partie savoir être, mais elle est trop lég�
 
 Changer le right reserved en bas.
 
+Formation et expérience rajouter stage et alternance. (mettre des liens vers les pages respectives de présentation des entreprises.
+
 /** CONTACT **/
 
-Mettre a jour la partir contactez moi en rajoutant des lien vers mon linkedIn, gitHub, Gilab.
+Mettre a jour la partir contactez moi en rajoutant des lien vers mon linkedIn, gitHub, Gilab. Changez l'adresse de l'IUT
  
 /** PROJECTS **/
 

@@ -13,7 +13,7 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
 
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -27,238 +27,355 @@
 </head>
 
 <body>
-    <!-- Page Preloder -->
-    <div id="preloder">
-        <div class="loader"></div>
-    </div>
+<!-- Page Preloder -->
+<div id="preloder">
+    <div class="loader"></div>
+</div>
 
-    <!-- Header Section Begin -->
-    <header class="header">
-        <div class="container">
+<!-- Header Section Begin -->
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="header__logo">
+                    <a href="./index.html"><img src="main/img/img.png" alt=""> Let's Progress</a>
+                </div>
+            </div>
+            <div class="col-lg-10">
+                <div class="header__nav__option">
+                    <nav class="header__nav__menu mobile-menu">
+                        <ul>
+                            <li><a href="./index.html">Accueil</a></li>
+                            <li class="active"><a href="./portfolio.html">Portfolio</a></li>
+                            <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li class="active"><a href="./index.html">Accueil</a></li>
+                                    <li><a href="./portfolio.html">Portfolio</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__nav__social">
+                        <a href="https://github.com/BakaAsta/" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/trouchex" target="_blank"><i
+                                class="fa fa-gitlab"></i></a>
+                        <a href="https://www.linkedin.com/in/trouche-xavier-918353218/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a href="mailto:xavier.trouche@outlook.fr" target="_blank"><i class="fa icon_mail"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+    </div>
+</header>
+<!-- Header End -->
+
+<!-- Breadcrumb Begin -->
+<div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Mes Projects</h2>
+                    <div class="breadcrumb__links">
+                        <a href="#">Accueil</a>
+                        <span>A Propos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb End -->
+
+<!-- Portfolio Section Begin -->
+<section class="portfolio spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <ul class="portfolio__filter">
+                    <li class="active" data-filter="*">All</li>
+                    <li data-filter=".java">Java</li>
+                    <li data-filter=".web">Web</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row portfolio__gallery">
+            <div class="col-lg-4 col-md-6 col-sm-6 mix java">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/aventuriersRailsPt1.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/RailsIhmPart1" target="_blank">Les Aventuriers du Rail
+                            Parti 1</a></h4>
+                        <ul>
+                            <li>Web & Java</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix java">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/graphe.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/RailsIhmPart2" target="_blank">Les Aventuriers du Rail
+                            Orienté Graphes</a></h4>
+                        <ul>
+                            <li>Web & Java</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix java">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/img.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/RailsIhmPart3" target="_blank">Les Aventuriers du Rail
+                            Version IHM</a></h4>
+                        <ul>
+                            <li>Java Orienté Object</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/saeWeb.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/sae-stage-alternance" target="_blank">SAE Application
+                            Web</a></h4>
+                        <ul>
+                            <li>Recherche Stage & Alternance</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <a target="_blank" href="https://bakaasta.github.io/Personal_MusicProject/ressources/web/">
+                        <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/music.png"></div>
+                    </a>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/Personal_MusicProject" target="_blank">Project
+                            Promotion Musicale</a></h4>
+                        <ul>
+                            <li>Site Web</li>
+                            <li>2022</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/leonn.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/leonn" target="_blank">Gestionnaire Leonn</a></h4>
+                        <ul>
+                            <li>Seul</li>
+                            <li>Site Web</li>
+                            <li>2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <!--                    <a target="_blank" href="https://webinfo.iutmontp.univ-montp2.fr/~trouchex/annuaire/public/">-->
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/frontVueJs.png"></div>
+                    <!--                    </a>-->
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/projets-xil/s5-web-projet1" target="_blank">Annuaire (Project
+                            pt-1)</a></h4>
+                        <p>En collaboration avec
+                            <a target="_blank" href="https://github.com/ivelter">
+                                Ilan
+                            </a>
+                            et
+                            <a target="_blank" href="https://github.com/lisaachr">
+                                Lisa
+                            </a>
+                        </p>
+                        <ul>
+
+                            <li>Site Web</li>
+                            <li>2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/api.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/PoweredBySymfony/Projet-API-REST" target="_blank">API (Project pt-2)</a></h4>
+                        <p>En collaboration avec
+                            <a target="_blank" href="https://github.com/MaxChelseaFC">
+                                Maxime
+                            </a>
+                            et
+                            <a target="_blank" href="https://github.com/lisaachr">
+                                Lisa
+                            </a>
+                        </p>
+                        <ul>
+                            <li>Site Web</li>
+                            <li>2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/leonn.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/lisaachr/api_front" target="_blank">Front VueJS (Project pt-3)</a>
+                        </h4>
+                        <p>En collaboration avec
+                            <a target="_blank" href="https://github.com/MaxChelseaFC">
+                                Maxime
+                            </a>
+                            et
+                            <a target="_blank" href="https://github.com/lisaachr">
+                                Lisa
+                            </a>
+                        </p>
+                        <ul>
+                            <li>Site Web</li>
+                            <li>2024</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 mix web">
+                <div class="portfolio__item">
+                    <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/trello.png">
+                    </div>
+                    <div class="portfolio__item__text">
+                        <h4><a href="https://github.com/BakaAsta/trellotrolle-code-de-base" target="_blank">Trello Trollé</a></h4>
+                        <p>En collaboration avec Théo et
+                            <a target="_blank" href="https://github.com/lisaachr">
+                                Lisa
+                            </a>
+                        </p>
+                        <ul>
+                            <li>Site Web</li>
+                            <li>2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Portfolio Section End -->
+
+<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__top">
             <div class="row">
-                <div class="col-lg-2">
+                <div class="col-lg-6 col-md-6">
                     <div class="header__logo">
                         <a href="./index.html"><img src="main/img/img.png" alt=""> Let's Progress</a>
                     </div>
                 </div>
-                <div class="col-lg-10">
-                    <div class="header__nav__option">
-                        <nav class="header__nav__menu mobile-menu">
-                            <ul>
-                                <li><a href="./index.html">Accueil</a></li>
-                                <li class="active"><a href="./portfolio.html">Portfolio</a></li>
-                                <li><a href="#">Pages</a>
-                                    <ul class="dropdown">
-                                        <li class="active"><a href="./index.html">Accueil</a></li>
-                                        <li><a href="./portfolio.html">Portfolio</a></li>
-                                        <li><a href="./contact.html">Contact</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="./contact.html">Contact</a></li>
-                            </ul>
-                        </nav>
-                        <div class="header__nav__social">
-                            <a href="https://github.com/BakaAsta/" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/trouchex" target="_blank"><i class="fa fa-gitlab"></i></a>
-                            <a href="https://www.linkedin.com/in/trouche-xavier-918353218/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="mailto:xavier.trouche@outlook.fr" target="_blank"><i class="fa icon_mail"></i></a>
-                        </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer__top__social">
+                        <a href="https://github.com/BakaAsta/" target="_blank"><i class="fa fa-github"></i></a>
+                        <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/trouchex" target="_blank"><i
+                                class="fa fa-gitlab"></i></a>
+                        <a href="https://www.linkedin.com/in/trouche-xavier-918353218/" target="_blank"><i
+                                class="fa fa-linkedin"></i></a>
+                        <a href="mailto:xavier.trouche@outlook.fr" target="_blank"><i class="fa icon_mail"></i></a>
                     </div>
                 </div>
             </div>
-            <div id="mobile-menu-wrap"></div>
         </div>
-    </header>
-    <!-- Header End -->
+        <div class="footer__option">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer__option__item">
+                        <h5>About Me</h5>
+                        <p>En cours de formation par l'IUT de Montpellier depuis 2022, je suis le cursus de BUT
+                            Informatique. Je souhaite découvrir l'informatique dans sa généralité puis me spécialiser
+                            dans les jeux vidéo.</p>
+                        <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-3">
+                    <div class="footer__option__item">
+                        <h5>What I Do</h5>
+                        <ul>
 
-    <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option spad set-bg" data-setbg="img/breadcrumb-bg.jpg">
-        <div class="container">
+                            <li><a href="#">For each day in life {
+                            </a></li>
+                            <li><a href="#">Étude</a></li>
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Developper</a></li>
+                            <li><a href="#">Debug</a></li>
+                            <li><a href="#">};</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__option__item">
+                        <h5>Useful link</h5>
+                        <ul>
+                            <a href="https://github.com/BakaAsta/" target="_blank"><i class="fa fa-github"></i>
+                                GitHub<br></a>
+                            <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/trouchex" target="_blank"><i
+                                    class="fa fa-gitlab"></i>
+                                GitLab
+                                <br></a>
+                            <a href="https://www.linkedin.com/in/trouche-xavier-918353218/" target="_blank"><i
+                                    class="fa fa-linkedin"></i> LinkedIn<br></a>
+                            <a href="mailto:xavier.trouche@outlook.fr" target="_blank"><i class="fa icon_mail"></i> Mail<br></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <div class="breadcrumb__text">
-                        <h2>Mes Projects</h2>
-                        <div class="breadcrumb__links">
-                            <a href="#">Accueil</a>
-                            <span>A Propos</span>
-                        </div>
-                    </div>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    <p class="footer__copyright__text">Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved | This template is made with <i class="fa fa-heart-o"
+                                                                            aria-hidden="true"></i> by Me
+                    </p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Breadcrumb End -->
+</footer>
+<!-- Footer Section End -->
 
-    <!-- Portfolio Section Begin -->
-    <section class="portfolio spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="portfolio__filter">
-                        <li class="active" data-filter="*">All</li>
-                        <li data-filter=".java">Java</li>
-                        <li data-filter=".web">Web</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row portfolio__gallery">
-                <div class="col-lg-4 col-md-6 col-sm-6 mix java">
-                    <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/aventuriersRailsPt1.png">
-                        </div>
-                        <div class="portfolio__item__text">
-                            <h4><a href="https://github.com/BakaAsta/RailsIhmPart1" target="_blank">Les Aventuriers du Rail Parti 1</a></h4>
-                            <ul>
-                                <li>Web & Java</li>
-                                <li>2023</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix java">
-                    <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/graphe.png">
-                        </div>
-                        <div class="portfolio__item__text">
-                            <h4><a href="https://github.com/BakaAsta/RailsIhmPart2" target="_blank">Les Aventuriers du Rail Orienté Graphes</a></h4>
-                            <ul>
-                                <li>Web & Java</li>
-                                <li>2023</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix java">
-                    <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/img.png">
-                        </div>
-                        <div class="portfolio__item__text">
-                            <h4><a href="https://github.com/BakaAsta/RailsIhmPart3" target="_blank">Les Aventuriers du Rail Version IHM</a></h4>
-                            <ul>
-                                <li>Java Orienté Object</li>
-                                <li>2023</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix web">
-                    <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/saeWeb.png">
-                        </div>
-                        <div class="portfolio__item__text">
-                            <h4><a href="https://webinfo.iutmontp.univ-montp2.fr/~trouchex/SAE/web/controleurFrontal.php" target="_blank">SAE Application Web</a></h4>
-                            <ul>
-                                <li>Recherche Stage & Alternance</li>
-                                <li>en cours</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 mix web">
-                    <div class="portfolio__item">
-                        <div class="portfolio__item__video set-bg" data-setbg="main/img/portfolio/music.png">
-                        </div>
-                        <div class="portfolio__item__text">
-                            <h4><a href="https://webinfo.iutmontp.univ-montp2.fr/~trouchex/ProjectPerso/Personal_MusicProject/ressources/web/" target="_blank">Project Promotion Musicale</a></h4>
-                            <ul>
-                                <li>Site Web</li>
-                                <li>2022</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Portfolio Section End -->
-
-    <!-- Footer Section Begin -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__top">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="header__logo">
-                            <a href="./index.html"><img src="main/img/img.png" alt=""> Let's Progress</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6">
-                        <div class="footer__top__social">
-                            <a href="https://github.com/BakaAsta/" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/trouchex" target="_blank"><i class="fa fa-gitlab"></i></a>
-                            <a href="https://www.linkedin.com/in/trouche-xavier-918353218/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            <a href="mailto:xavier.trouche@outlook.fr" target="_blank"><i class="fa icon_mail"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__option">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="footer__option__item">
-                            <h5>About Me</h5>
-                            <p>En cours de formation par l'IUT de Montpellier depuis 2022, je suis le cursus de BUT Informatique. Je souhaite découvrir l'informatique dans sa généralité puis me spécialiser dans les jeux vidéo.</p>
-                            <a href="#" class="read__more">Read more <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-3">
-                        <div class="footer__option__item">
-                            <h5>What I Do</h5>
-                            <ul>
-
-                                <li><a href="#">For each day in life {
-                                </a></li>
-                                <li><a href="#">Étude</a></li>
-                                <li><a href="#">Sports</a></li>
-                                <li><a href="#">Developper</a></li>
-                                <li><a href="#">Debug</a></li>
-                                <li><a href="#">};</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="footer__option__item">
-                            <h5>Useful link</h5>
-                            <ul>
-                                <a href="https://github.com/BakaAsta/" target="_blank"><i class="fa fa-github"></i> GitHub<br></a>
-                                <a href="https://gitlabinfo.iutmontp.univ-montp2.fr/trouchex" target="_blank"><i class="fa fa-gitlab"></i>
-                                    GitLab
-                                    <br></a>
-                                <a href="https://www.linkedin.com/in/trouche-xavier-918353218/" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn<br></a>
-                                <a href="mailto:xavier.trouche@outlook.fr" target="_blank"><i class="fa icon_mail"></i> Mail<br></a>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="footer__copyright">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Copyright &copy;
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            All rights reserved | This template is made with <i class="fa fa-heart-o"
-                                                                                aria-hidden="true"></i> by Me
-                        </p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- Footer Section End -->
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/mixitup.min.js"></script>
-    <script src="js/masonry.pkgd.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/mixitup.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>
